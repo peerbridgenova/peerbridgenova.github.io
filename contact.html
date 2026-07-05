@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | PeerBridge</title>
+    <meta name="description" content="Get involved with PeerBridge and connect with the team.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <img src="assets/img/peerbridge-logo.png" alt="PeerBridge logo">
+          <div>
+            <span class="brand-name">PeerBridge</span>
+            <span class="brand-tag">Where mental health and technology meet</span>
+          </div>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="articles.html">Articles</a>
+          <a href="team.html">Team</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main class="page-main">
+        <section class="page-hero">
+          <p class="eyebrow">Contact</p>
+          <h1>Want to get involved with PeerBridge?</h1>
+          <p class="lead">Reach out, follow along, and help grow a stronger student mental health community.</p>
+        </section>
+
+        <section class="section contact-layout">
+          <div class="contact-panel">
+            <h2>Current contact points</h2>
+            <ul class="contact-list">
+              <li><strong>Instagram:</strong> <a href="https://www.instagram.com/peerbridgenova/" target="_blank" rel="noreferrer">@peerbridgenova</a></li>
+              <li><strong>Webmaster:</strong> Anwar Kiyar</li>
+              <li><strong>Response:</strong> Reach out on Instagram for the fastest way to connect with the team.</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" data-demo-form>
+            <h2>Send a quick message</h2>
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              What are you reaching out about?
+              <textarea name="message" rows="5" placeholder="I want to volunteer / collaborate / learn more..." required></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Send message</button>
+            <p class="form-note">This contact form is a simple preview. Until it is connected to a live inbox, Instagram is the best contact option.</p>
+            <p class="form-success" hidden>Thanks for your message. For now, please also reach out on Instagram so the team can reply directly.</p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <span class="brand-name">PeerBridge</span>
+          <p>Student-led mental health support for the NoVA community.</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="articles.html">Articles</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p class="footer-note">© <span id="year"></span> PeerBridge. Built with care.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
